@@ -1,0 +1,183 @@
+<html>
+
+    <head>
+
+		<meta charset="UTF-8">
+	
+		<!-- Important to make website responsive -->	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>C-19vaccinePRO.lk</title>
+
+		<!-- Link our CSS file -->
+		<link rel="stylesheet" href="css/style.css">
+		
+		<link rel="icon" type="image/png" href="images/goverment-hospital.png">
+
+       <script type="text/javascript">
+
+        function submit()
+		{
+
+			var userID = document.getElementById('s1').value; 
+			var password   = parseInt(document.getElementById('s2').value);
+
+			if(userID == "admin" && password == 1234)
+			{				
+				window.location.href = 'data.php';
+			}
+			else 
+			{
+				alert("incorect user ID or password")		
+			}
+			
+		}
+	
+	</script>
+
+    </head>
+
+    <body>  
+
+		<!-- Navbar Section Starts Here -->
+	
+		<section class="navbar">
+	
+			<div class="container">
+				
+				<div class="menu text-right">
+				
+					<ul>
+						<li>
+							<a href="Home.html">Home</a>
+						</li>
+	
+						<li>
+							<a href="details.html">Vaccine Details</a>
+						</li>
+	
+						<li>
+							<a href="order.html">Register</a>
+						</li>
+	
+						<li>
+							<a href="admin.html">Admin</a>
+						</li>
+					</ul>
+					
+				</div>
+	
+			</div>
+			
+		</section>
+	
+		<!-- admin Section Starts Here -->
+
+		<section class="-search">
+	
+			<div class="container">
+				
+				<h2 class="text-center text-white">Login</h2>
+	
+					<fieldset>
+						<legend>Use your  Account</legend>
+
+							<div class="label">User ID</div><br>
+							<input type="Password" name="userID" id='s1'placeholder="E.g. userID" class="input-responsive" required>
+							
+							<div class="label">Password</div><br>
+							<input type="password" name="Password" id='s2' placeholder="E.g. XXXXXXXXXX"  class="input-responsive" required>  
+
+							<input type="submit" name="submit" value="Login" class="btn btn-primary" onclick="submit()"> 
+
+						</fieldset>
+
+					</form>
+		
+				</div>
+				
+			</section>
+
+		<br><br><br><br><br><br>
+
+		<!-- footerSection Starts Here -->
+	  
+		  <div class="footer">
+  
+			  <div class="container"> 	
+			  
+				  <div class="row">
+				  
+					  <div class="footer-col-1">
+					  
+						  <h3>Download Our App</h3>
+						  
+							  <div class="app-logo">
+							  
+								  <img src="images/play-store.png">
+								  
+								  <img src="images/app-store.png">
+							  
+							  </div>
+						  
+						  <p>Download App for Android and Ios mobile phobe.<br>coming soon</p>
+					  
+					  </div>
+					  
+					  <div class="footer-col-3">
+						  
+						  <h3>STAY SAFE</h3>
+					  
+					  </div>
+					  
+					  <div class="footer-col-3">
+					  
+						  <h3>Contact <br> Us</h3>
+						  
+					  <P> 011 3401920
+						  covid19sl20@gmail.com </P>
+					  
+					  </div>
+					  
+					  <div class="footer-col-3">
+					  
+						  <h3>Address</h3>
+						  
+					  <P> National Operation Centre 
+						  No 1090,
+						  Sri Jayawardhanapura Mawatha,
+						  Rajagiriya </P>
+					  
+					  </div>
+					  
+					  <div class="footer-col-4">
+					  
+						  <h3>Follow Us</h3>
+						  
+						  <ul>
+						  
+							  <li><a href="#">Facebook</a></li>
+							  <li><a href="#">Twitter</a></li>
+							  <li><a href="#">Instagram</a></li>
+							  <li><a href="#">YouTube</a></li>
+							  
+						  </ul>
+					  
+					  </div>
+					  
+				  </div>	
+	  
+				  <hr> 
+			  
+				  <p class="copyright">© All Rights Reserved. Designed & Developed by  <a href="#">
+				  Pubudu Deepamal</p>
+			  
+			  </div>	
+		  
+		  </div>
+		  
+	  <!-- footer Section Ends Here -->
+
+    </body>
+
+</html>
